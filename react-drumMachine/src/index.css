@@ -2,8 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply bg-slate-400;
+  }
+}
+
 @layer components {
   .drum-pad {
-    @apply bg-slate-300 flex items-center justify-center p-8 text-slate-800 font-bold rounded active:bg-slate-400 cursor-pointer;
+    @apply bg-slate-300 flex items-center justify-center py-8 px-2 text-slate-800 font-bold rounded active:bg-slate-400 cursor-pointer;
+  }
+  #drum-machine {
+    @apply bg-slate-500 p-7 rounded-lg shadow-lg;
   }
 }
