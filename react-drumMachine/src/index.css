@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .drum-pad {
+    @apply bg-slate-300 flex items-center justify-center p-8 text-slate-800 font-bold rounded active:bg-slate-400 cursor-pointer;
+  }
+}
