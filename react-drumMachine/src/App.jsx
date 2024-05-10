@@ -117,12 +117,14 @@ function App() {
           </div>
         </div>
         <div className='flex flex-col items-center justify-center gap-8 pl-8 w-[5rem] lg:w-[30rem]'>
+          {/* On/Off Toggle */}
           <Toggle />
+          {/* Display Container */}
           <div className="bg-slate-200 w-[8rem] h-12 flex items-center justify-center rounded-md font-bold" id='display'>
             {displayText}
           </div>
+          {/* Volume Slider */}
           <Slider />
-          <Toggle />
         </div>
       </div>
     </div>
